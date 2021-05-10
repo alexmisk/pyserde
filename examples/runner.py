@@ -5,6 +5,7 @@ import collection
 import custom_field_serializer
 import default
 import env
+import flatten
 import jsonfile
 import newtype
 import rename
@@ -23,6 +24,7 @@ def run_all():
     run(collection)
     run(default)
     run(env)
+    run(flatten)
     run(jsonfile)
     run(rename)
     run(rename_all)
